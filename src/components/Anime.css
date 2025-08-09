@@ -102,3 +102,54 @@ html, body {
   letter-spacing: 3px;
   margin-top: 5px;
 }
+
+.anime-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.anime-cv-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 24px;
+  border: 2px solid #87CEEB;
+  color: #87CEEB;
+  background: transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.anime-cv-btn:hover {
+  background: #87CEEB;
+  color: #121212;
+}
+
+.anime-socials {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+.anime-social-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  color: #87CEEB;
+  background: transparent;
+  font-size: 1.3rem;
+  transition: border 0.2s, color 0.2s;
+}
+.anime-social-btn:hover {
+  border: 2px solid #87CEEB;
+  color: #fff;
+  background: #222b;
+}
