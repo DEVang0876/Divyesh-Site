@@ -79,18 +79,12 @@ html, body {
 
  .spark {
   position: absolute;
-  left: 50%;
-  top: 38%;
-  transform: translate(-50%, -50%);
-  width: 32px;
-  height: 32px;
+  width: clamp(160px, 21vw, 270px);
+  height: auto;
+  aspect-ratio: 2 / 3;
   border-radius: 50%;
-  background: radial-gradient(circle, #ffe066 60%, #00ffd0 100%);
-  box-shadow: 0 0 12px 4px #ffe066cc, 0 0 18px 8px #00ffd088;
   animation: sparkPulse 0.5s infinite;
-  z-index: 3;
-  opacity: 0.85;
-  pointer-events: none;
+  z-index: 1;
 }
 
 @keyframes sparkPulse {
