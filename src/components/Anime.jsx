@@ -18,8 +18,8 @@ export default function Anime() {
           <div className="spark"></div>
           <div className="bulb"></div>
         </div>
-        <h1 className="title">Divyesh Dhandhukiya</h1>
-        <p className="subtitle">Electrical Engineer</p>
+  <h1 className="title">Divyesh Dhandhukiya</h1>
+  <p className="subtitle">Electrical Engineer</p>
         <div className="anime-actions">
           <motion.button
             whileHover={{ scale: 1.05 }}
