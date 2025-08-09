@@ -1,15 +1,7 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import {
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs,
-  FaGitAlt, FaFigma, FaPython, FaDatabase, FaCode
-} from 'react-icons/fa';
-import {
-  SiTailwindcss, SiPandas, SiCplusplus, SiNumpy,
-  SiMongodb, SiExpress, SiPostman, SiLinux
-} from 'react-icons/si';
-import { BiData } from 'react-icons/bi';
-import { DiScrum } from 'react-icons/di';
+import { FaBolt, FaDatabase, FaTools, FaMicrochip, FaProjectDiagram, FaDraftingCompass } from 'react-icons/fa';
+import { SiSiemens, SiAutodesk, SiArduino, SiLinux } from 'react-icons/si';
 import { useEffect, useState } from 'react';
 
 const SkillCard = ({ icon: Icon, name, category }) => {
@@ -38,14 +30,14 @@ const TechnicalSkills = () => {
   }, []);
 
   const skills = [
-    { icon: FaCode, name: 'Circuit Design', category: 'Electrical' },
+    { icon: FaBolt, name: 'Circuit Design', category: 'Electrical' },
     { icon: FaDatabase, name: 'Power Systems', category: 'Electrical' },
-    { icon: FaGitAlt, name: 'PLC & Automation', category: 'Industrial' },
+    { icon: SiSiemens, name: 'PLC Programming', category: 'Automation' },
+    { icon: SiAutodesk, name: 'AutoCAD Electrical', category: 'Design' },
+    { icon: FaMicrochip, name: 'Embedded Systems', category: 'Microcontrollers' },
+    { icon: SiArduino, name: 'Arduino', category: 'Prototyping' },
     { icon: SiLinux, name: 'MATLAB/Simulink', category: 'Simulation' },
-    { icon: FaPython, name: 'Embedded Systems', category: 'Microcontrollers' },
-    { icon: FaFigma, name: 'AutoCAD Electrical', category: 'Design' },
-    { icon: FaJs, name: 'Electrical Safety', category: 'Standards' },
-    { icon: FaNodeJs, name: 'Project Management', category: 'Professional' },
+    { icon: FaProjectDiagram, name: 'Project Management', category: 'Professional' },
   ];
 
   const duplicatedSkills = [...skills, ...skills];

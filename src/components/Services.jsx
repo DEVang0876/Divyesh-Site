@@ -47,21 +47,21 @@ const Services = () => {
   const services = [
     {
       icon: FaChartBar,
-      title: 'Data Analytics & Visualization',
+      title: 'Electrical System Design',
       description:
-        'Transforming raw data into actionable insights using Python, SQL, and data visualization tools like Tableau and Power BI.',
+        'Designing and planning electrical circuits, panels, and distribution systems for residential, commercial, and industrial projects.',
     },
     {
       icon: FaBrain,
-      title: 'AI, Machine Learning & Data Science',
+      title: 'Automation & PLC Programming',
       description:
-        'Building and deploying machine learning models using Python, TensorFlow, and PyTorch, with a focus on real-world applications.',
+        'Developing automation solutions using PLCs, SCADA, and industrial control systems for process optimization and safety.',
     },
     {
       icon: FaChalkboardTeacher,
-      title: 'Tech Consulting & Mentorship',
+      title: 'Project Management & Consulting',
       description:
-        'Providing guidance on best practices in software development, data science, and AI, helping teams to innovate and excel.',
+        'Managing electrical projects, providing technical consulting, and ensuring compliance with industry standards and safety regulations.',
     },
   ];
 
