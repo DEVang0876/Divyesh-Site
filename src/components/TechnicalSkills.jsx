@@ -38,26 +38,14 @@ const TechnicalSkills = () => {
   }, []);
 
   const skills = [
-    { icon: FaHtml5, name: 'HTML5', category: 'Web Development' },
-    { icon: FaCss3Alt, name: 'CSS3', category: 'Web Development' },
-    { icon: FaJs, name: 'JavaScript', category: 'Web Development' },
-    { icon: SiTailwindcss, name: 'Tailwind CSS', category: 'Web Development' },
-    { icon: FaReact, name: 'React.js', category: 'Web Development' },
-    { icon: FaNodeJs, name: 'Node.js', category: 'Web Development' },
-    { icon: SiExpress, name: 'Express.js', category: 'Backend' },
-    { icon: FaPython, name: 'Python', category: 'Programming' },
-    { icon: SiPandas, name: 'Pandas', category: 'Data Science' },
-    { icon: SiNumpy, name: 'NumPy', category: 'Data Science' },
-    { icon: BiData, name: 'Scikit-learn', category: 'Machine Learning' },
-    { icon: DiScrum, name: 'Matplotlib', category: 'Data Visualization' },
-    { icon: SiCplusplus, name: 'C++', category: 'Programming' },
-    { icon: FaFigma, name: 'Figma', category: 'UI Design' },
-    { icon: FaGitAlt, name: 'Git & GitHub', category: 'Version Control' },
-    { icon: SiPostman, name: 'Postman', category: 'API Testing' },
-    { icon: SiMongodb, name: 'MongoDB', category: 'Database' },
-    { icon: FaDatabase, name: 'SQL', category: 'Database' },
-    { icon: FaCode, name: 'VSCode', category: 'IDE' },
-    { icon: SiLinux, name: 'Linux / Bash', category: 'Operating System' },
+    { icon: FaCode, name: 'Circuit Design', category: 'Electrical' },
+    { icon: FaDatabase, name: 'Power Systems', category: 'Electrical' },
+    { icon: FaGitAlt, name: 'PLC & Automation', category: 'Industrial' },
+    { icon: SiLinux, name: 'MATLAB/Simulink', category: 'Simulation' },
+    { icon: FaPython, name: 'Embedded Systems', category: 'Microcontrollers' },
+    { icon: FaFigma, name: 'AutoCAD Electrical', category: 'Design' },
+    { icon: FaJs, name: 'Electrical Safety', category: 'Standards' },
+    { icon: FaNodeJs, name: 'Project Management', category: 'Professional' },
   ];
 
   const duplicatedSkills = [...skills, ...skills];
