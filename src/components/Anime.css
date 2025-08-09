@@ -14,8 +14,8 @@ html, body {
   color: #fff;
 }
 
-.anime-container {
-  height: 60vh;
+ .anime-container {
+  height: 75vh;
   width: 100vw;
   background: radial-gradient(circle at center, #001020, #000);
   position: relative;
@@ -51,11 +51,12 @@ html, body {
 }
 
 /* Bulb + Spark */
-.bulb-wrapper {
+ .bulb-wrapper {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .bulb {
